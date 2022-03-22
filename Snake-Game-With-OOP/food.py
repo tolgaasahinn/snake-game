@@ -12,7 +12,6 @@ class Food(Turtle):
         self.speed("fastest")
         self.refesh()
 
-
     def refesh(self):
         random_x = random.randint(-280, 280)
         random_y = random.randint(-280, 280)
